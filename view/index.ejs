@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>bar-code</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>QR Code Generator</h1>
+        <hr>
+        <form action="/scan" method="post" class="form">
+            <textarea name="text" autofocus id="txt" cols="150" rows="10" placeholder="Enter the URL, Message or Text..." required></textarea><br>
+            <button type="submit" class="btn btn-primary">Generate QR</button>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
